@@ -1,0 +1,25 @@
+@import "~taro-ui/dist/style/components/avatar.scss";
+
+.imgContainer {
+  min-width: 200px;
+  min-height: 300px;
+  flex-basis:  50%;
+  border: none;
+  .userinfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    .userinFoDetail {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+  }
+  .img {
+    border: none;
+    min-width: 200px;
+    min-height: 200px;
+  }
+}
+
